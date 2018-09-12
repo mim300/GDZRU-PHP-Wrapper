@@ -52,7 +52,8 @@
         foreach ($editions as $edition) {
             echo "<h3>".$edition["title"]."</h3>";
             foreach ($edition["images"] as $image) {
-                echo "<img style='width:100%' onclick='openImg(this)' src=".$image["url"].">";
+                $img_b64 = base64_encode(file_get_contents($image["url"]));
+                echo "<img style='width:100%' onclick='openImg(this)' src=data:image/jpg;base64,".$img_b64.">";
             }
         }
         echo $ytvid;
