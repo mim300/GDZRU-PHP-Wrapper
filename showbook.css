@@ -1,0 +1,23 @@
+.task:hover {
+    background-color: #e7e7e7;
+    transform: translate3d(0px, -2px, 0px);
+    box-shadow: 4px 6px 9px 0px #464646;
+}
+.task {
+    vertical-align: bottom;
+    display: inline-block;
+    min-width: 35px;
+    box-shadow: 2px 2px 9px 0px #464646;
+    transition: 0.25s ease-out;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    margin:2px;
+}
+h4, h3 {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #666;
+}

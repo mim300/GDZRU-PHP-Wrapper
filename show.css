@@ -1,0 +1,46 @@
+.book {
+    border-radius: 10px;
+    border: 1px solid #888;
+    padding: 8px;
+    margin: 4px;
+    width: 18rem;
+    height: 25rem;
+    display: inline-grid;
+    transition: 0.25s ease-out;
+    box-shadow: 4px 4px 20px 0px #464646;
+    cursor: pointer;
+    text-align: center;
+}
+.book:hover {
+    background-color: #e7e7e7;
+    transform: translate3d(0px, -10px, 0px);
+    box-shadow: 4px 14px 20px 0px #464646;
+    cursor: pointer;
+}
+.title {
+    font-size: 13px;
+    font-weight: 600;
+}
+.year {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 340px;
+    color: #666;
+    font-size: 12px;
+}
+span.author {
+    font-size: 13px;
+}
+span.author::before {
+    content: "(";
+    font-size: 13px;
+}
+span.author::after {
+    content: ")";
+    font-size: 13px;
+}
+.cover {
+    border: 0;
+    width: 100%;
+    height: 278px;
+}
