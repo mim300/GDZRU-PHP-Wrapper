@@ -1,0 +1,15 @@
+{
+  "description": "Это пример описания сайта. Настройте в config.json",
+  "title": "GDZRU PHP WRAPPER",
+  "additional": [
+    {
+      "lnk": "http://example.com",
+      "txt": "Пример ссылки"
+    },
+    {
+      "lnk": "https://github.com/TaizoGem/GDZRU-PHP-Wrapper",
+      "txt": "Репозиторий"
+    }
+  ],
+  "additional_note": "Это пример описания доп. ссылок. Настройте в config.json"
+}
